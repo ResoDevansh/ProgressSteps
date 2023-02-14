@@ -86,7 +86,31 @@ button {
   margin: 0 2em;
   cursor: pointer;
 }
+/* .traverse {
+  border-color: white;
+  transition: border 1s cubic-bezier(0.25, 0.46, 0.45, 0.8);
+} */
 .traverse{
   border-color: white;
-  transition: border 1s cubic-bezier(0.25,0.46,.45,.80);
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: anime 5s linear forwards;
+  animation-duration: 3s;
+}
+.enhanced-step {
+  transform: scale(1.75);
+  transition: all 275ms cubic-bezier(0.25, 0.46, 0.45, 0.8);
+  background-color: rgb(255, 205, 210);
+  -webkit-box-shadow: 0px 10px 20px 5px rgba(230, 138, 230, 1);
+  -moz-box-shadow: 0px 10px 20px 5px rgba(230, 138, 230, 1);
+  box-shadow: 0px 0px 20px 5px rgba(230, 138, 230, 1);
+}
+@keyframes anime{
+  from{
+    stroke-dashoffset: 0;
+  }
+  to{
+    /* border-color: white; */
+    stroke-dashoffset: 1000;
+  }
 }
