@@ -1,0 +1,80 @@
+@font-face {
+  font-family: robo;
+  src: url("./fonts/RobotoCondensed-Regular.ttf");
+}
+body {
+  font-family: robo;
+  background-color: #160316;
+}
+h1{
+    color: aliceblue;
+    margin-bottom: -5em;
+    text-align: center;
+}
+.steps {
+  border-radius: 50%;
+  height: 2em;
+  width: 2em;
+  background-color: #5a0c5a;
+  text-align: center;
+  padding-top: 0.4em;
+  box-sizing: border-box;
+  border: 2px solid #5a0caa;
+  color: #5a0caa;
+}
+.path {
+  border: 4px solid #5a0c5a;
+  width: 20%;
+}
+.first {
+  /* border: 2px solid white; */
+  position: relative;
+  top: 27vh;
+  left: 10.7vw;
+}
+.second {
+  /* border: 2px solid white; */
+  position: relative;
+  top: 53vh;
+  left: 27.6vw;
+}
+.third {
+  position: relative;
+  top: 37vh;
+  left: 49vw;
+}
+.fourth {
+  position: relative;
+  top: 72vh;
+  left: 61vw;
+}
+.one {
+  /* border: 2px solid wheat; */
+  transform: rotate(41deg);
+  position: relative;
+  top: 40vh;
+  left: 10vw;
+}
+.two {
+  transform: rotate(-13deg);
+  position: relative;
+  top: 45vh;
+  left: 29.5vw;
+}
+.three {
+  transform: rotate(57deg);
+  position: relative;
+  top: 54.5vh;
+  left: 46vw;
+}
+button{
+    padding: .5em;
+    width: 4em;
+    font-size: 1.5em;
+    box-sizing: border-box;
+    border-radius: .3em;
+    position: relative;
+    top: 80vh;
+    left: 40vw;
+    margin: 0 2em;
+}
